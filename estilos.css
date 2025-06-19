@@ -121,11 +121,6 @@ header {
     background-position: 40px;
 }
 
-#segunda-seccion img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
 
 .art-seg-sec{
     position: absolute;
