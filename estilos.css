@@ -78,6 +78,7 @@ header {
     height: 60vh;
     width: 100%;
     position: relative;
+    background-image: ;
 }
 
 #primer-seccion img{
@@ -115,6 +116,9 @@ header {
     font-size: 0.7rem;
     position: relative;
     height: 50vh;
+    background-image: url(./imagenes/Coope_1.jpeg);
+    background-size: cover;
+    background-position: 40px;
 }
 
 #segunda-seccion img{
