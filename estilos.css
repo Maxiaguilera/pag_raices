@@ -7,8 +7,8 @@
 
 @font-face {
   font-family: 'Renos'; 
-  src: url('/fuente/RenosRough-Regular.otf') format('truetype'),
-       url('/fuente/RenosRough-Regular.ttf') format('opentype');
+  src: url('./fuente/RenosRough-Regular.otf') format('truetype'),
+       url('./fuente/RenosRough-Regular.ttf') format('opentype');
   font-weight: normal; 
   font-style: normal; 
 }
