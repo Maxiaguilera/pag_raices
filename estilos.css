@@ -78,22 +78,33 @@ header {
     height: 60vh;
     width: 100%;
     position: relative;
-    background-image: ;
+    display: flex;
+    flex-direction: column;
 }
 
 #primer-seccion img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border: solid 4px black;
+    
 }
 
-#bajada {
+
+
+.bajada {
+    height: 100%;
     width: 70%;
     align-items: justify;
     position:absolute;
     left: 15%;
-    top: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+
+#bajada-copete{
     border-bottom: 1px solid white;
     border-top: 1px solid white;
 }
@@ -107,7 +118,13 @@ header {
     padding: 5%;  
 }
 
-#segunda-seccion{
+#bajada-titulo h1{
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    
+}
+
+/*#segunda-seccion{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr ;
@@ -127,7 +144,7 @@ header {
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 10%;
+    gap: 5%;
     align-items: center;
     justify-content: center;
     
@@ -140,6 +157,38 @@ header {
     text-align: justify;
     gap:2%;
     
+}*/
+
+#segunda-seccion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #11594F;
+    color: aliceblue;
+    font-size: 0.7rem;
+    background-image: url(./imagenes/Coope_1.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 5% 0;
+    min-height: 50vh; 
+}
+
+.art-seg-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5% 0;
+}
+
+.art-main {
+    background-color: hsla(193, 73%, 18%, 0.7);
+    width: 90%;
+    padding: 5%;
+    text-align: justify;
+    margin: 0 auto;
 }
 
 footer {   
@@ -252,6 +301,16 @@ footer li a{
         height: 70%;
         width: 40%;
     }
+
+    #bajada-titulo h1{
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    
+}
+
+    #bajada-copete h1{
+    font
+}
 
     .redes{
         font-size: 2.5rem;
