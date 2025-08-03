@@ -188,19 +188,27 @@ header {
 
 footer {   
     background-color: hsla(193, 73%, 18%, 0.9);
-    height: 15vh;
+    height: 20vh;
      font-size: 0.5rem;
      color:aliceblue;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     padding: 5%;
+     display: grid;
+     grid-template-rows: 1fr 1fr 1fr;
+     padding: 5% 5% 8% 5%;
+     gap: 1rem;
+     
+     width: 100%;
 
     
 }
 
+.footer ul{
+    padding-bottom: 3%;
+    width: 100%;
+}
+
 footer li{
-    gap: 5%;
+    gap: 4%;
+    
 }
 
 footer li a{
@@ -212,29 +220,37 @@ footer li a{
 
 #footer-menu{
     display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
     list-style-type: none;
+    border-bottom: 1px solid white;
     
     
 }
 
 .redes{
     font-size: 1.8rem;
+    text-align: center;
 }
 
 .footer-contact{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
+    width: 100%;
+    align-items: center;
     font-size: 0.5rem;
     gap: 10%;
+    border-bottom: 1px solid white;
+    padding-bottom: 3%;
     
 }
 
 .footer-contact h3{
     font-size: 0.6rem;
 }
+
+/*-------------Media Queries Tablet-----------*/
 
 @media (min-width: 768px) {
     #menu-toggle {
@@ -275,7 +291,37 @@ footer li a{
         
     }
 
+    footer{
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        padding: 2% 5% 8% 5%;
+    }
+
+    #footer-menu{
+    display: flex;
+    flex-direction: column;
+    border-bottom: none;
+    border-right: 1px solid white;
+    }
+
+    .footer-contact{
+    justify-content: center;
+    border-bottom: none;
+    border-right: 1px solid white;
+    }
+
+    .redes{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    }
+
+
  }
+
+/*-------------Media Queries Monitor-----------*/
+
 
 @media (min-width: 1025px) {
     #menu-toggle {
@@ -309,12 +355,35 @@ footer li a{
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     }
 
-    .redes{
-        font-size: 2.5rem;
+    footer{
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        padding: 2% 5% 8% 5%;
+    }
+
+    #footer-menu{
+    display: flex;
+    flex-direction: column;
+    border-bottom: none;
+    border-right: 1px solid white;
     }
 
     .footer-contact{
         font-size: 1rem;
+        justify-content: center;
+        border-bottom: none;
+        border-right: 1px solid white;
     }
 
+    .redes{
+        font-size: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+        justify-content: center;
+    }
+
+    
+
+    
 }
