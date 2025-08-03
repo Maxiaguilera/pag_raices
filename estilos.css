@@ -275,6 +275,8 @@ footer li a{
         
     }
 
+ }
+
 @media (min-width: 1025px) {
     #menu-toggle {
         display: none;
