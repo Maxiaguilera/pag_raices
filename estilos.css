@@ -104,6 +104,22 @@ header {
     border-top: 1px solid white;
 }
 
+
+
+#servicios{
+    border-bottom: none;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    gap:1%;
+    padding: 1% 0% 1% 0%;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
 #primer-seccion h1 {
     text-align: center;
     width: 100%;
@@ -117,6 +133,14 @@ header {
     font-size: 1.5rem;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     
+}
+
+#servicios h1{
+    font-size: 0.7rem;
+}
+
+#servicios h2{
+    font-size: 0.5rem;
 }
 
 /*#segunda-seccion{
@@ -195,6 +219,11 @@ header {
     min-width: 300px; /* Ancho mínimo para mantener legibilidad */
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacto{
+    justify-content: space-between;
 }
 
 footer {   
@@ -302,6 +331,34 @@ footer li a{
         
     }
 
+     .bajada-contacto{
+        width: 65%;
+        display:flex;
+        
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    #bajada-contacto h1{
+        font-size: 1.6rem;
+        
+    }
+
+    .contacto-img{
+        height:50vh;
+        padding: 5%;
+        width: 25vw;
+        
+    }
+
+    .contacto-img img{
+        height: 10%;
+        width: 100%;
+        object-fit: cover;
+       
+    }
+
     footer{
         display: grid;
         grid-template-columns: 25% 50% 25%;
@@ -309,23 +366,23 @@ footer li a{
     }
 
     #footer-menu{
-    display: flex;
-    flex-direction: column;
-    border-bottom: none;
-    border-right: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;
+        border-right: 1px solid white;
     }
 
     .footer-contact{
-    justify-content: center;
-    border-bottom: none;
-    border-right: 1px solid white;
+        justify-content: center;
+        border-bottom: none;
+        border-right: 1px solid white;
     }
 
     .redes{
-    display: flex;
-    flex-direction: column;
-    gap: 5%;
-    justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+        justify-content: center;
     }
 
 
@@ -362,9 +419,66 @@ footer li a{
 
 
     #bajada-titulo h1{
-    font-size: 3rem;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+        font-size: 3rem;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     }
+
+    
+
+    #servicios{
+        border-bottom: none;
+        border-top: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        height: 100%;
+        width: 100%;
+    }
+
+    #servicios h1{
+        font-size: 0.9rem;
+        padding: 1.5%;
+    }
+
+    #servicios h2{
+        font-size: 0.8rem;
+        color:rgb(179, 179, 179);
+    }
+
+    .contacto{
+        height: 30vh;
+    }
+
+    .bajada-contacto{
+        width: 65%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+
+    #bajada-contacto h1{
+        font-size: 1.7rem;
+    }
+
+    .contacto-img{
+        height:30vh;
+        
+        width: 25vw;
+        
+    }
+
+    .contacto-img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        
+    }
+
+    
 
     footer{
         display: grid;
@@ -373,10 +487,10 @@ footer li a{
     }
 
     #footer-menu{
-    display: flex;
-    flex-direction: column;
-    border-bottom: none;
-    border-right: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;
+        border-right: 1px solid white;
     }
 
     .footer-contact{
